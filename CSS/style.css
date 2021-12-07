@@ -1,0 +1,140 @@
+
+body{
+    background-color: skyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+.main-part{
+    width: 1000px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding-top: 10px;
+}
+
+.services  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CARDS */
+.mobile {
+    text-align: center;
+    padding-right: 50px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+.mobile:hover{
+    background: #f6f6f6;
+}
+
+.mobile-img {
+    padding-left: 50px;
+}
+
+.desktop {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.desktop:hover {
+    background: #f6f6f6;
+}
+
+.card-3 {
+    text-align: center;
+    padding-top: 40px;
+    margin-right: 20px;
+    padding-left: 40px;
+}
+
+.card-3:hover {
+    background: #f6f6f6;
+}
+
+.card-3-img {
+    padding-right: 50px;
+}
+
+
+/* HEADINGS */
+.mobile-heading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7296EC;
+    font-weight: 700;
+    font-style: bold;
+    padding-left: 50px;
+}
+
+.desktop-heading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7296EC;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.card-3-heading{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7296EC;
+    font-weight: 700;
+    font-style: bold;
+    padding-right: 50px;
+}
+
+
+/* PARAGRAPHS */
+.mobile-paragraph {
+    font-weight: 700;   
+    color: #7f7f7f;
+    font-size: 13px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.desktop-paragraph {
+    font-weight: 700;
+    color: #7f7f7f;
+    font-size: 13px;
+    width: 245px;
+}
+
+.card-3-paragraph {
+    font-weight: 700;   
+    color: #7f7f7f;
+    font-size: 13px;
+    width: 200px;
+    padding-right: 50px;
+}
+
+/* PRICE */
+.mobile-price, 
+.desktop-price, 
+.card-3-price {
+    color: #7296EC;
+}
+
+.mobile-price {
+    padding-left: 50px;
+}
+
+.card-3-price {
+    padding-right: 50px;
+}
+
+.mobile,
+.desktop,
+.card-3 {
+    font-size: 30px;
+}
